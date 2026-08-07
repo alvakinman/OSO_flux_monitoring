@@ -25,8 +25,8 @@ fm5331, vo5351, fm5352, vo6014, fm6029, vo6049, fm6054, vo6056,
 vo6091, fm6092, vo6119, fm6120
 *end of experiment list
 
-## Table structure
-Data files in the directory *lightcurves* are in csv format with the following columns:
+## Data structure
+The directory *lightcurves* contains an individual flux density file for each source. The files are named *{ivssource}*.csv, where *ivssource* is the designation used by the International VLBI Service for Geodesy and Astronomy (IVS). Data files are in csv format with the following columns:
 
 |COLUMN    |UNIT    |DESCRIPTION|
 |----------|--------|-----------|
@@ -43,11 +43,13 @@ Data files in the directory *lightcurves* are in csv format with the following c
 |err3      |Jy     | Uncertainty of flux density in band C.|
 |err4      |Jy     | Uncertainty of flux density in band D.|
 
-Note: In the combined file fluxdensity_{date}.csv, the first column is a "source" column with IERS names (see translation table below).
+The csv file *fluxdensity_{date}.csv* contains the same data collected in a single file. The first column is named "source", containing names designated by the International Earth Rotation and Reference Systems Service (IERS) (see tranlslation table below). Other columns are the same as in the *lightcurves* files.
+
+The directory *ascii_data* contains a flux density data file and a source name translation table in ascii format (compatible with CDS). The file ReadMe.txt contains table metadata.
 
 
 ## Source name translation table
-Data files are named {sourcename}.csv, where *sourcename* is the name in use by the IVS. For most sources, this corresponds to the IERS name/B1950 coordinates. For the sources where this is not the case, the translation between IVS and IERS name can be found in the table below.
+Data files in *lightcurves* are named *{ivssource}.csv*, where *ivssource* is the name in use by the IVS. For most sources, this corresponds to the IERS name/B1950 coordinates. For the sources where this is not the case, the translation between IVS and IERS name can be found in the table below.
 
 *start of translation table
 |IERS name |IVS name|
