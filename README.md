@@ -11,16 +11,21 @@ VO - VGOS-operational sessions, coordinated by the IVS. Only the ONSA13NE-ONSA13
 FM - Flux monitoring sessions. Conducted locally at Onsala Space Observatory every month, targeting the ICRF3 defining sources. 
 
 ## Latest light curve data
-Latest batch created 2026-07-15
+Latest batch created 2026-09-01
 
-Latest observation date included: 2026-04-30 (fm6120)
+Latest observation date included: 2026-08-02 (fm6214)
 
-Number of sources: 361
+Number of sources: 371
 
 List of included experiments:
 
-fm3031, fm3134, fm3148, fm3182, fm3195, fm3293, vo3299, fm3306, fm4050, fm4074, vo4108, vo4115, fm4128, vo4150, fm4155, vo4248, vo4283, vo4311, fm4312, vo4339, fm4340, fm4341, vo4346, vo5022, vo5029, vo5043, fm5052, fm5053, fm5087, vo5099, fm5114, vo5134, vo5176, fm5183, fm5197, vo5232, fm5264, vo5281, vo5302, fm5306, fm5331, vo5351, fm5352, vo6014, fm6029, vo6049, fm6054, vo6056, vo6091, fm6092, vo6119, fm6120
-
+fm3031, fm3134, fm3148, fm3182, fm3195, fm3293, vo3299, fm3306, 
+fm4050, fm4074, vo4108, vo4115, fm4128, vo4150, fm4155, vo4248, 
+vo4283, vo4311, fm4312, vo4339, fm4340, fm4341, vo4346, vo5022, 
+vo5029, vo5043, fm5052, fm5053, fm5087, vo5099, fm5114, vo5134, 
+vo5176, fm5183, fm5197, vo5232, fm5264, vo5281, vo5302, fm5306, 
+fm5331, vo5351, fm5352, vo6014, fm6029, vo6049, fm6054, vo6056, 
+vo6091, fm6092, vo6119, fm6120, fm6148, vo6162, fm6186, vo6196, 
 *end of experiment list
 
 ## Data structure
@@ -61,6 +66,7 @@ Data files in *lightcurves* are named *{ivssource}.csv*, where *ivssource* is th
 |0538+498|3C147|
 |0851+202|OJ287|
 |0923+392|4C39.25|
+|0923+392|4C39|
 |1222+131|M84|
 |1226+023|3C273B|
 |1228+126|3C274|
@@ -81,5 +87,4 @@ Data files in *lightcurves* are named *{ivssource}.csv*, where *ivssource* is th
 |2230+114|CTA102|
 |2250+190|2250+194|
 |2251+158|3C454.3|
-
 *end of translation table
