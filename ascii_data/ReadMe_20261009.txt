@@ -1,4 +1,4 @@
-J/A+A/XXX/XXX  Flux density data of 361 active galactic nuclei  (Kinman+, 2026)
+J/A+A/XXX/XXX  Flux density data of 374 active galactic nuclei  (Kinman+, 2026)
 ================================================================================
 A multi-band radio flux density catalog of ICRF3 sources using the Onsala
 Twin Telescopes
@@ -63,7 +63,7 @@ File Summary:
 --------------------------------------------------------------------------------
 ReadMe            80      104     This file
 fluxdensity.dat   79      9455    Flux densities in four frequency bands for
-                                  380 ICRF3 sources
+                                  374 ICRF3 sources
 ivsnames.dat      16      31      Translation table between IERS and IVS source
                                   names
 --------------------------------------------------------------------------------
