@@ -11,11 +11,11 @@ VO - VGOS-operational sessions, coordinated by the IVS. Only the ONSA13NE-ONSA13
 FM - Flux monitoring sessions. Conducted locally at Onsala Space Observatory every month, targeting the ICRF3 defining sources. 
 
 ## Latest light curve data
-Latest batch created 2026-09-01
+Latest batch created 2026-10-09
 
-Latest observation date included: 2026-08-02 (fm6214)
+Latest observation date included: 2026-09-06 (fm6249)
 
-Number of sources: 371
+Number of sources: 374
 
 List of included experiments:
 
@@ -26,6 +26,7 @@ vo5029, vo5043, fm5052, fm5053, fm5087, vo5099, fm5114, vo5134,
 vo5176, fm5183, fm5197, vo5232, fm5264, vo5281, vo5302, fm5306, 
 fm5331, vo5351, fm5352, vo6014, fm6029, vo6049, fm6054, vo6056, 
 vo6091, fm6092, vo6119, fm6120, fm6148, vo6162, fm6186, vo6196, 
+fm6214, fm6249
 *end of experiment list
 
 ## Data structure
@@ -55,6 +56,7 @@ The directory *ascii_data* contains a flux density data file and a source name t
 Data files in *lightcurves* are named *{ivssource}.csv*, where *ivssource* is the name in use by the IVS. For most sources, this corresponds to the IERS name/B1950 coordinates. For the sources where this is not the case, the translation between IVS and IERS name can be found in the table below.
 
 *start of translation table
+
 |IERS name |IVS name|
 |--------|--------|
 |0007+106|IIIZW2|
@@ -66,10 +68,10 @@ Data files in *lightcurves* are named *{ivssource}.csv*, where *ivssource* is th
 |0538+498|3C147|
 |0851+202|OJ287|
 |0923+392|4C39.25|
-|0923+392|4C39|
 |1222+131|M84|
 |1226+023|3C273B|
 |1228+126|3C274|
+|1245-457|1245-454|
 |1253-055|3C279|
 |1328+307|3C286|
 |1409+524|3C295|
@@ -87,4 +89,6 @@ Data files in *lightcurves* are named *{ivssource}.csv*, where *ivssource* is th
 |2230+114|CTA102|
 |2250+190|2250+194|
 |2251+158|3C454.3|
+|2252-090|2252-089|
+
 *end of translation table
